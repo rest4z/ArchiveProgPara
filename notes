@@ -1,0 +1,6 @@
+Hyperfine :
+
+hyperfine -r 5 './mon_prog -n 1000'
+-r 5 → répète la commande 5 fois.
+
+si le programme ne marche pas -> utiliser gawk dans .local/bin/stat-utils de leo
